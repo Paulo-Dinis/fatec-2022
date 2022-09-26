@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+*{
+    font-family: 'Share Tech', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+body, html{
+    background-color: rgba(212, 212, 212, 0.363);
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+header{
+    background-color: rgb(90, 90, 90);
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    left: 0;
+}
+
+main{
+    height: 80%;
+    margin: 0px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+h2{
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+div{
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+    height: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+
+#turing{
+    background-color: #EB0C22;
+    width: 27%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+}
+
+
+#neumann{
+    background-color: #449E10;
+    width: 27%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+}
+
+#dean{
+    background-color: #005AEB;
+    width: 27%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+#turing:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#neumann:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#dean:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.texto{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(90, 90, 90);
+    text-align: center;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+    left: 0px;
+    padding: 15px 15px 15px 15px;
+}
